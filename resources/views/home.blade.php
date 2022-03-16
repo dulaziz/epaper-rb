@@ -1,84 +1,22 @@
 @extends('layouts.main')
 
 @section('child')
-      <div class="d-flex align-items-center" style="height: 600px;">
-          <div class="row">
-            <div>
-                <h1>Highlight</h1>
-                <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat.
-                </p>
-                <hr>
-                <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <a href="#" class="btn text-white" style="background-color: #00548F;">Learn More</a>
-                <a href="#" class="btn btn-success">Member</a>
-            </div>
-            {{-- <div class="col-md-4">
-            <img src="img/gallery.png" alt="" style="width: 360px; height: 290px;">
-            </div> --}}
-          </div>
-        </div>
 
-    <div class="py-5">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card mb-4 shadow">
-          <div class="card-body">
-            <h5 class="card-title">3 Bulan</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Beli Paket</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 mb-4">
-        <div class="card shadow">
-          <div class="card-body">
-            <h5 class="card-title">6 Bulan</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Beli Paket</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 mb-4">
-        <div class="card shadow">
-          <div class="card-body">
-            <h5 class="card-title">12 Bulan</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Beli Paket</a>
-          </div>
-        </div>
-      </div>
+    <div class="bg-dark">
+        @include('partials.banner')
     </div>
+    
+    <div class="container">
+      @include('partials.price')
     </div>
 
-    <div class="bg-light">
-      <div class="py-5">
-        <div class="text-end">
-            <h1>Highlight</h1>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat.
-            </p>
-            <hr>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <a href="#" class="btn btn-primary">Learn More</a>
-            <a href="#" class="btn btn-success">Member</a>
-          </div>
-        </div>
+    <div class="container">
+      @include('partials.about')
     </div>
 
-    @include('partials.slick')
+    <div class="container">
+      @include('partials.slick')
+    </div>
 
 @endsection
 

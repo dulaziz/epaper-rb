@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="navStyle.css">
+<link rel="stylesheet" href="css/navStyle.css">
 
 {{-- Nav Header logo--}}
 <div class="text-center bg-white">
@@ -43,8 +43,70 @@
         <a class="link-dark text-secondary" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
         <a class="link-dark text-secondary" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
         <a class="link-dark text-secondary" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
-        <a class="link-dark rb-blue-tx border-start" href="#"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
+        <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
        </div>
     </div>
   </div>
 </nav>
+
+<!-- Button trigger modal -->
+{{-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> --}}
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-xl">
+    <div class="modal-content">
+      <div class="modal-header bg-light">
+        <h5 class="modal-title" id="exampleModalLabel">Search Epaper</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <div class="row g-0">
+          <div class="col-md-4 col-sm-12 modal-img rounded-3 shadow-sm" style="background-image:url(./img/epaper-radar-bogor-4-Februari-2022.jpg);">
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="card-body">
+              <h5 class="card-title">Edisi 1 Januari 2020</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row g-0">
+          <div class="col-md-4 col-sm-12 modal-img rounded-3 shadow-sm" style="background-image:url(./img/epaper-radar-bogor-4-Februari-2022.jpg);">
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="card-body">
+              <h5 class="card-title">Edisi 1 Januari 2020</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row g-0">
+          <div class="col-md-4 col-sm-12 modal-img rounded-3 shadow-sm" style="background-image:url(./img/epaper-radar-bogor-4-Februari-2022.jpg);">
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="card-body">
+              <h5 class="card-title">Edisi 1 Januari 2020</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer bg-light">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Load More</button>
+      </div>
+    </div>
+  </div>
+</div>

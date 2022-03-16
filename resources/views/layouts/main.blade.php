@@ -23,7 +23,7 @@
     @include('partials.navbar')
 
     {{-- Content --}}
-    <div class="container">
+    <div>
         @yield('child')
     </div>
 

@@ -1,16 +1,16 @@
 {{-- Footer Layout --}}
-<footer class="bg-dark text-white pt-5 pb-4">
+<footer class="text-light pt-3 pb-3 mt-5" style="background-color: #00548F;">
     <div class="container text-md-left">
       <div class="row text-md-left">
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Radar Bogor</h5>
+        <div class="col-md-12 col-lg-6 col-xl-6 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold">Radar Bogor</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco.</p>
         </div>
 
-        <div class="col-md-7 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Menu</h5>
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold">Menu</h5>
           <p>
             <a href="" class="text-white" style="text-decoration: none;">Home</a>
           </p>
@@ -25,8 +25,8 @@
           </p>
         </div>
 
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Soccial</h5>
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold">Soccial</h5>
           <p>
             <i class="fab fa-facebook" style="margin-right: 6px;"></i>Facebook
           </p>
@@ -41,8 +41,8 @@
           </p>
         </div>
 
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+        <div class="col-md-4 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
           <p>
             <i class="fas fa-envelope" style="margin-right: 6px;"></i>Email
           </p>
@@ -56,13 +56,12 @@
             <i class="fas fa-home" style="margin-right: 6px;"></i>Kota Bogor
           </p>
         </div>
-
-        <hr class="mb-4">
+        <hr>
         <div class="row align-items-center">
           <div class="col-md-7 col-lg-8">
-            <p>Copyright &copy All rights reserved by:
+            <p class="mb-0">Copyright &copy All rights reserved by:
               <a href="#" style="text-decoration: none;">
-                <strong class="text-warning">Radar Bogor</strong>
+                <strong class="text-light">Radar Bogor</strong>
               </a>
             </p>
           </div>

@@ -12,18 +12,20 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
+    
+    <link rel="stylesheet" href="css/mySlick.css">
 </head>
 <body>
     
-<div class="py-5">
-    <div class="row responsive">
+
+    <div class="row responsive pt-5 mySlick">
         <div class="col-md-12">
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
                     <h5 class="card-title">Edisi 1 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -33,9 +35,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 2 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -45,9 +47,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 3 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -57,9 +59,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 4 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -69,9 +71,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 5 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -81,9 +83,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 6 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -93,9 +95,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 7 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -105,9 +107,9 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 8 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-primary btn-sm">Download</button>
+                        <button type="button" class="btn btn-dark btn-sm">Download</button>
                         <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
@@ -117,16 +119,15 @@
             <div class="card mx-2">
                 <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
                 <div class="card-body">
-                    <h5 class="card-title">Edisi 1 Januari 2020</h5>
+                    <h5 class="card-title">Edisi 9 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-primary btn-sm">Download</button>
+                    <button type="button" class="btn btn-dark btn-sm">Download</button>
                     <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
                     </div>
                 </div>
             </div>
         </div>
     </div> 
-</div>
 
 {{-- Slick --}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -146,7 +147,7 @@
       breakpoint: 1024,
       settings: {
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
         arrows:false
@@ -155,7 +156,7 @@
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 2,
         arrows:false
       }
@@ -164,6 +165,14 @@
       breakpoint: 480,
       settings: {
         slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows:false
+      }
+    },
+    {
+      breakpoint: 325,
+      settings: {
+        slidesToShow: 1,
         slidesToScroll: 1,
         arrows:false
       }

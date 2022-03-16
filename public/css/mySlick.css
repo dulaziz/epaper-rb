@@ -1,0 +1,24 @@
+.mySlick{
+    height: 46rem;
+}
+
+@media (max-width: 1025px){
+    .mySlick{
+        height: 36rem;
+    }
+    }
+@media (max-width: 427px){
+    .mySlick{
+        height: 35rem;
+    }
+    }
+@media (max-width: 377px){
+    .mySlick{
+        height: 32rem;
+    }
+    }
+@media (max-width: 325px){
+.mySlick{
+    height: 45rem;
+}
+}
