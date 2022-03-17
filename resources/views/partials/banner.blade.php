@@ -9,8 +9,8 @@
       </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <div class="overlay-image" style="background-image:url(./img/ppr1.jpg);"></div>
-            <div class="carousel-text container">
+            {{-- <div class="overlay-image" style="background-image:url(./img/ppr1.jpg);"></div> --}}
+            <div class="carousel-text container text-secondary">
                 <h1>Banner 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus, molestias consectetur minima id saepe voluptatum iure mollitia adipisci quam magni fuga facere, nihil rem alias quidem a! Repellat, quibusdam.</p>
                 <a href="#" class="btn btn-sm btn-primary">
@@ -19,8 +19,8 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="overlay-image" style="background-image:url(./img/ppr2.jpg);"></div>
-            <div class="carousel-text container">
+            {{-- <div class="overlay-image" style="background-image:url(./img/ppr2.jpg);"></div> --}}
+            <div class="carousel-text container text-secondary">
                 <h1>Banner 2</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus, molestias consectetur minima id saepe voluptatum iure mollitia adipisci quam magni fuga facere, nihil rem alias quidem a! Repellat, quibusdam.</p>
                 <a href="#" class="btn btn-sm btn-primary">
@@ -29,8 +29,8 @@
             </div>
         </div>
         <div class="carousel-item">
-            <div class="overlay-image" style="background-image:url(./img/ppr3.jpg);"></div>
-            <div class="carousel-text container">
+            {{-- <div class="overlay-image" style="background-image:url(./img/ppr3.jpg);"></div> --}}
+            <div class="carousel-text container text-secondary">
                 <h1>Banner 3</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus, molestias consectetur minima id saepe voluptatum iure mollitia adipisci quam magni fuga facere, nihil rem alias quidem a! Repellat, quibusdam.</p>
                 <a href="#" class="btn btn-sm btn-primary">

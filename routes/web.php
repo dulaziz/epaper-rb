@@ -25,9 +25,9 @@ Route::get('/epaper', function () {
     ]);
 });
 
-Route::get('/contact', function () {
-    return view('contact', [
-        "title" => "Contact"
+Route::get('/langganan', function () {
+    return view('langganan', [
+        "title" => "langganan"
     ]);
 });
 
