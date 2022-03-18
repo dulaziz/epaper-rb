@@ -36,3 +36,10 @@ Route::get('/login', function () {
         "title" => "Login"
     ]);
 });
+
+// Admin
+Route::get('admin/admin', function () {
+    return view('admin/admin', [
+        "title" => "Admin"
+    ]);
+});

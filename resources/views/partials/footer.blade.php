@@ -12,7 +12,7 @@
           quis nostrud exercitation ullamco.</p>
         </div>
 
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 fw-bold">Soccial</h5>
           <hr>
           <p>
@@ -29,7 +29,7 @@
           </p>
         </div>
 
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+        <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
           <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
           <hr>
           <p>
