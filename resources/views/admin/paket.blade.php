@@ -2,6 +2,4 @@
 
 @section('child')
 
-@include('admin.partials.cardsinfo')  
-
 @endsection

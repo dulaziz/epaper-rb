@@ -43,3 +43,27 @@ Route::get('admin/admin', function () {
         "title" => "Admin"
     ]);
 });
+
+Route::get('admin/pesanan', function () {
+    return view('admin/pesanan', [
+        "title" => "Pesanan"
+    ]);
+});
+
+Route::get('admin/produk', function () {
+    return view('admin/produk', [
+        "title" => "Produk"
+    ]);
+});
+
+Route::get('admin/tambah-produk', function () {
+    return view('admin/tambah-produk', [
+        "title" => "Tambah Produk"
+    ]);
+});
+
+Route::get('admin/paket', function () {
+    return view('admin/paket', [
+        "title" => "Paket"
+    ]);
+});
