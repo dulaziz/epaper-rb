@@ -24,7 +24,7 @@
           
           <li class="nav-header">EXAMPLES</li>
           <li class="nav-item">
-            <a href="/admin/pesanan" class="nav-link">
+            <a href="/admin/pesanan" class="nav-link {{ ($title === "Pesanan") ? 'active' : '' }}">
               <i class="nav-icon far fa-calendar-alt"></i>
               <p>
                 Pesanan
@@ -33,24 +33,24 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/produk" class="nav-link">
-              <i class="nav-icon far fa-image"></i>
+            <a href="/admin/produk" class="nav-link {{ ($title === "Produk") ? 'active' : '' }}">
+              <i class="nav-icon far fa-newspaper"></i>
               <p>
                 Produk
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/tambah-produk" class="nav-link">
-              <i class="nav-icon fas fa-columns"></i>
+            <a href="/admin/tambah-produk" class="nav-link {{ ($title === "Tambah Produk") ? 'active' : '' }}">
+              <i class="nav-icon fas fa-plus"></i>
               <p>
                 Tambah Produk
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/paket" class="nav-link">
-              <i class="nav-icon fas fa-columns"></i>
+            <a href="/admin/paket" class="nav-link {{ ($title === "Paket") ? 'active' : '' }}">
+              <i class="nav-icon fas fa-tags"></i>
               <p>
                 Paket
               </p>

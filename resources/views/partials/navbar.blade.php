@@ -11,7 +11,7 @@
   <div class="container"> 
 
     {{-- Logo --}}
-    <a class="navbar-brand text-uppercase fs-3 fw-bold goudy pt-2 pb-0" style="color: #00548F;" href="/">RADAR BOGOR</a>
+    <a class="navbar-brand navlogo" href="/"><img src="img/RB Nav.png" alt="logo radar bogor"></a>
     
     {{-- Burger Menu --}}
     <button 

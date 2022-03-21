@@ -67,3 +67,9 @@ Route::get('admin/paket', function () {
         "title" => "Paket"
     ]);
 });
+
+Route::get('admin/action', function () {
+    return view('admin/action', [
+        "title" => "Action"
+    ]);
+});

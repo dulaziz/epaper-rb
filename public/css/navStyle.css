@@ -6,6 +6,12 @@
 .rb-blue-tx{
   color: #00548F;
 }
+.navbar-brand {
+  padding-top: 0;
+}
+.navlogo img{
+  width: 250px;
+}
 
 /* Custom Toggler */
 .navbar-toggler {
