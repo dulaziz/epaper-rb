@@ -38,8 +38,8 @@ Route::get('/login', function () {
 });
 
 // Admin
-Route::get('admin/admin', function () {
-    return view('admin/admin', [
+Route::get('/admin', function () {
+    return view('admin/index', [
         "title" => "Dashboard"
     ]);
 });

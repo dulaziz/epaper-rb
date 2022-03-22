@@ -3,7 +3,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-light-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="/admin/admin" class="brand-link">
+    <a href="/admin" class="brand-link">
       <img src="/img/sideNavCircle.png" alt="RADAR BOGOR Logo" class="brand-image" style="margin-top: -1px;">
       <span class="brand-text font-weight-light goudy">| RADAR BOGOR</span>
     </a>
@@ -24,7 +24,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <li class="nav-item">
-            <a href="/admin/admin" class="nav-link {{ ($title === "Dashboard") ? 'active' : '' }}">
+            <a href="/admin" class="nav-link {{ ($title === "Dashboard") ? 'active' : '' }}">
               <i class="nav-icon fa-solid fa-house"></i>
               <p>Dashboard</p>
             </a>
