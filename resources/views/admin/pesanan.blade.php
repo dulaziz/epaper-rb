@@ -2,6 +2,6 @@
 
 @section('child')
 
-@include('admin.partials.pesanan-table')
+@include('admin.partials.pesananTable')
 
 @endsection

@@ -4,6 +4,6 @@
 
 @include('admin.partials.cardsinfo')
     
-@include('admin.partials.produk-table')
+@include('admin.partials.produkTable')
 
 @endsection

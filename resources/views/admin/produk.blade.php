@@ -2,6 +2,6 @@
 
 @section('child')
 
-@include('admin.partials.produk-table')
+@include('admin.partials.produkTable')
 
 @endsection

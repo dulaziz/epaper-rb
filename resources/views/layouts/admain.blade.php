@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ asset('') }}assets/plugins/fontawesome-free/css/all.min.css">
-  
+  <!-- Font Awesome v6.1.0 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -43,10 +43,10 @@
   </div>
 
   {{-- Nav Header Partials --}}
-  @include('admin.partials.navhead')
+  @include('admin.partials.navHead')
 
   {{-- Nav Sidebar Partials --}}
-  @include('admin.partials.navside')
+  @include('admin.partials.navSide')
 
   {{-- Content Header Partials --}}
   @include('admin.partials.contentHead')
