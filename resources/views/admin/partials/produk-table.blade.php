@@ -2,7 +2,7 @@
 <div class="card card-outline card-primary">
     <div class="card-body">
         <a href="/admin/action" class="btn btn-sm btn-success mb-3"><i class="fas fa-plus mr-3"></i>Tambah Epaper</a>
-        <table id="example1" class="table table-striped table-hover" style="width:100%">   
+        <table id="dtTbl" class="table table-striped table-hover">   
             <thead>
                 <tr>
                     <th style="width: 100px">Epaper</th>

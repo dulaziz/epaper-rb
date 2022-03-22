@@ -1,3 +1,7 @@
+.goudy{
+    font-family: 'Sorts Mill Goudy', serif;
+  }
+
 .myCard{
     cursor: pointer;
     transition: all 0.3s;

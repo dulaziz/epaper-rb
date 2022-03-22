@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
     
-
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
     <title>Radar Bogor Epaper | {{ $title }}</title>
   </head>
   <body class="bg-light">

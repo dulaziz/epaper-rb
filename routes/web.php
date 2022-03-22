@@ -40,7 +40,7 @@ Route::get('/login', function () {
 // Admin
 Route::get('admin/admin', function () {
     return view('admin/admin', [
-        "title" => "Admin"
+        "title" => "Dashboard"
     ]);
 });
 
@@ -56,8 +56,8 @@ Route::get('admin/produk', function () {
     ]);
 });
 
-Route::get('admin/tambah-produk', function () {
-    return view('admin/tambah-produk', [
+Route::get('admin/tambahProduk', function () {
+    return view('admin/tambahProduk', [
         "title" => "Tambah Produk"
     ]);
 });

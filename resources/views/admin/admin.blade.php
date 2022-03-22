@@ -2,6 +2,8 @@
 
 @section('child')
 
-@include('admin.partials.cardsinfo')  
+@include('admin.partials.cardsinfo')
+    
+@include('admin.partials.produk-table')
 
 @endsection

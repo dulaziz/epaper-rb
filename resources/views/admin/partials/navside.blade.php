@@ -1,9 +1,11 @@
+<link rel="stylesheet" href="/css/global.css">
+
 <!-- Main Sidebar Container -->
-<aside class="main-sidebar sidebar-dark-primary elevation-4">
+<aside class="main-sidebar sidebar-light-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="{{ asset('') }}assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Radar Bogor</span>
+    <a href="/admin/admin" class="brand-link">
+      <img src="/img/Favicon RB.png" alt="RADAR BOGOR Logo" class="brand-image" style="margin-top: -1px;">
+      <span class="brand-text font-weight-light goudy">| RADAR BOGOR</span>
     </a>
 
     <!-- Sidebar -->
@@ -14,7 +16,7 @@
           <img src="{{ asset('') }}assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block">Abdul Aziz</a>
         </div>
       </div>
 
@@ -22,10 +24,16 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           
-          <li class="nav-header">EXAMPLES</li>
+          <li class="nav-header">MAIN MENU</li>
+          <li class="nav-item">
+            <a href="/admin/admin" class="nav-link {{ ($title === "Dashboard") ? 'active' : '' }}">
+              <i class="nav-icon fa-solid fa-house"></i>
+              <p>Dashboard</p>
+            </a>
+          </li>
           <li class="nav-item">
             <a href="/admin/pesanan" class="nav-link {{ ($title === "Pesanan") ? 'active' : '' }}">
-              <i class="nav-icon far fa-calendar-alt"></i>
+              <i class="nav-icon fa-solid fa-cart-arrow-down"></i>
               <p>
                 Pesanan
                 <span class="badge badge-info right">2</span>
@@ -34,15 +42,15 @@
           </li>
           <li class="nav-item">
             <a href="/admin/produk" class="nav-link {{ ($title === "Produk") ? 'active' : '' }}">
-              <i class="nav-icon far fa-newspaper"></i>
+              <i class="nav-icon fa-solid fa-newspaper"></i>
               <p>
                 Produk
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/tambah-produk" class="nav-link {{ ($title === "Tambah Produk") ? 'active' : '' }}">
-              <i class="nav-icon fas fa-plus"></i>
+            <a href="/admin/tambahProduk" class="nav-link {{ ($title === "Tambah Produk") ? 'active' : '' }}">
+              <i class="nav-icon fa-solid fa-folder-plus"></i>
               <p>
                 Tambah Produk
               </p>
@@ -50,7 +58,7 @@
           </li>
           <li class="nav-item">
             <a href="/admin/paket" class="nav-link {{ ($title === "Paket") ? 'active' : '' }}">
-              <i class="nav-icon fas fa-tags"></i>
+              <i class="nav-icon fa-solid fa-hand-holding-dollar"></i>
               <p>
                 Paket
               </p>

@@ -10,8 +10,6 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ asset('') }}assets/plugins/fontawesome-free/css/all.min.css">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
@@ -39,35 +37,35 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="/img/RB Nav.png" alt="RbLogo" width="300">
+    <img class="animation__shake" src="{{ asset('') }}assets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
   </div>
 
-  {{-- Nav Header Partials --}}
+  {{-- Nav Header --}}
   @include('admin.partials.navhead')
 
-  {{-- Nav Sidebar Partials --}}
+  {{-- Nav Sidebar --}}
   @include('admin.partials.navside')
-
-  {{-- Content Header Partials --}}
-  @include('admin.partials.contentHead')
 
     <!-- Main content -->
     <section class="content">
       <div class="container-fluid">
         
-        @yield('child')
-        
-      </div>
+        <div>
+            @yield('child')
+        </div>
+
+      </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-
-  {{-- Footer Partials --}}
+  
   @include('admin.partials.footer')
 
 </div>
 <!-- ./wrapper -->
+
+
 
 <!-- jQuery -->
 <script src="{{ asset('') }}assets/plugins/jquery/jquery.min.js"></script>
@@ -103,7 +101,6 @@
 <script src="{{ asset('') }}assets/dist/js/demo.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
 <script src="{{ asset('') }}assets/dist/js/pages/dashboard.js"></script>
-
 <!-- jQuery -->
 <script src="{{ asset('') }}assets/plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
@@ -121,10 +118,14 @@
 <script src="{{ asset('') }}assets/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="{{ asset('') }}assets/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="{{ asset('') }}assets/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+<!-- AdminLTE App -->
+<script src="{{ asset('') }}assets/dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="{{ asset('') }}assets/dist/js/demo.js"></script>
 <!-- Page specific script -->
 <script>
   $(function () {
-    $("#dtTbl").DataTable({
+    $("#example1").DataTable({
       "responsive": true,
       "lengthChange": true,
       "autoWidth": false,
