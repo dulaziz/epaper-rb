@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.frontLayout.main')
 
 @section('child')
 
@@ -9,13 +9,13 @@
         <hr>
     </div>
     <div class="row g-3">
-        @include('partials.card')
-        @include('partials.card')
-        @include('partials.card')
-        @include('partials.card')
-        @include('partials.card')
+        @include('front.partials.cardEpaper')
+        @include('front.partials.cardEpaper')
+        @include('front.partials.cardEpaper')
+        @include('front.partials.cardEpaper')
+        @include('front.partials.cardEpaper')
 
-        @include('partials.pagination')
+        @include('front.partials.pagination')
     </div> 
 </div>
 

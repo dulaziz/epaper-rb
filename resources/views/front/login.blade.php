@@ -1,4 +1,4 @@
-@extends('layouts.main')
+@extends('layouts.frontLayout.main')
 
 @section('child')
 <div class=" py-5 container">

@@ -43,13 +43,13 @@
   </div>
 
   {{-- Nav Header Partials --}}
-  @include('admin.partials.navHead')
+  @include('layouts.adminLayout.navHead')
 
   {{-- Nav Sidebar Partials --}}
-  @include('admin.partials.navSide')
+  @include('layouts.adminLayout.navSide')
 
   {{-- Content Header Partials --}}
-  @include('admin.partials.contentHead')
+  @include('layouts.adminLayout.contentHead')
 
     <!-- Main content -->
     <section class="content">
@@ -64,7 +64,7 @@
   <!-- /.content-wrapper -->
 
   {{-- Footer Partials --}}
-  @include('admin.partials.footer')
+  @include('layouts.adminLayout.footer')
 
 </div>
 <!-- ./wrapper -->

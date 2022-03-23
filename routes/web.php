@@ -13,26 +13,27 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// User Front
 Route::get('/', function () {
-    return view('home', [
+    return view('front/home', [
         "title" => "Home"
     ]);
 });
 
 Route::get('/epaper', function () {
-    return view('epaper', [
+    return view('front/epaper', [
         "title" => "Epaper"
     ]);
 });
 
 Route::get('/langganan', function () {
-    return view('langganan', [
+    return view('front/langganan', [
         "title" => "langganan"
     ]);
 });
 
 Route::get('/login', function () {
-    return view('login', [
+    return view('front/login', [
         "title" => "Login"
     ]);
 });
