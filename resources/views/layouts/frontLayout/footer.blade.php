@@ -47,13 +47,11 @@
         </div>
         <hr>
         <div class="row align-items-center">
-          <div class="col-md-7 col-lg-8">
             <p class="mb-0">Copyright &copy All rights reserved by:
               <a href="#" style="text-decoration: none;">
                 <strong class="text-light">Radar Bogor</strong>
               </a>
             </p>
-          </div>
         </div>
       </div>
     </div>

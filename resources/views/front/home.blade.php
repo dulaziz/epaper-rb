@@ -2,7 +2,7 @@
 
 @section('child')
 
-    <div class="bg-white">
+    <div class="bg-white d-flex align-items-center" style="height: 33rem;">
         @include('front.partials.banner')
     </div>
     

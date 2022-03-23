@@ -35,8 +35,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 1 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -47,8 +47,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 2 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -59,8 +59,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 3 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -71,8 +71,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 4 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 5 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -95,8 +95,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 6 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -107,8 +107,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 7 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -119,8 +119,8 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 8 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-dark btn-sm">Download</button>
-                        <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
@@ -131,14 +131,45 @@
                 <div class="card-body">
                     <h5 class="card-title rb-blue-tx">Edisi 9 Januari 2020</h5>
                     <div class="d-grid gap-2">
-                    <button type="button" class="btn btn-dark btn-sm">Download</button>
-                    <button type="button" class="btn btn-secondary btn-sm">Beli Koran</button>
+                        <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
+                        <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
                     </div>
                 </div>
             </div>
         </div>
     </div> 
 </div>
+
+<!-- Modal Login/daftar member-->
+<div class="modal fade" id="daftarModal" tabindex="-1" aria-labelledby="daftarModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="daftarModalLabel">Login Member</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-dark">Login</button>
+            <a href="/langganan" class="btn btn-secondary">Daftar Paket</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
 {{-- Slick --}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
