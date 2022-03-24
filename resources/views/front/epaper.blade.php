@@ -2,6 +2,7 @@
 
 @section('child')
 
+<div style="background-color: #F9F6EE;">
 <div class="py-5 container">
     <div class="carousel-text mb-3">
         <h1>ePaper bulan ini</h1>
@@ -17,6 +18,7 @@
 
         @include('front.partials.pagination')
     </div> 
+</div>
 </div>
 
 @endsection

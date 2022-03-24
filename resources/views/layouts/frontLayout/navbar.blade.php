@@ -7,11 +7,11 @@
 </div> --}}
 
 {{-- Navbar --}}
-<nav class="navbar navbar-expand-lg justify-content-between py-0 navbar-light bg-white shadow-sm sticky-top border-bottom border-top">
+<nav class="navbar navbar-expand-lg justify-content-between py-1 navbar-dark shadow-sm sticky-top " style="background-color: #00548F;">
   <div class="container"> 
 
     {{-- Logo --}}
-    <a class="navbar-brand navlogo" href="/"><img src="img/RB Nav.png" alt="logo radar bogor"></a>
+    <a class="navbar-brand navlogo" href="/"><img src="img/RB white.png" alt="logo radar bogor"></a>
     
     {{-- Burger Menu --}}
     <button 
@@ -28,7 +28,7 @@
     </button>
     {{-- Menu --}}
     <div class="collapse navbar-collapse" id="toggleMobileMenu">
-      <ul class="navbar-nav text-center fw-normal ms-auto">
+      <ul class="navbar-nav text-center fw-bold ms-auto d-flex align-items-center">
         <li class="nav-item">
           <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
         </li>
@@ -36,20 +36,22 @@
           <a class="nav-link {{ ($title === "Epaper") ? 'active' : '' }}" href="/epaper">Epaper</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{ ($title === "langganan") ? 'active' : '' }}" href="/langganan">Berlangganan</a>
+          <a class="nav-link {{ ($title === "Langganan") ? 'active' : '' }}" href="/langganan">Berlangganan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {{ ($title === "Login") ? 'active' : '' }}" href="/login">Login</a>
         </li>
       </ul>
 
       {{-- Soccial Icon --}}
-      <div class="text-center my-3 ms-3">
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-youtube" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
-        
-        <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-sign-in-alt" style="margin-left: 12px;"></i></a>
+      <div class="text-center ms-3 py-1">
+        <a class="link-dark text-light" href="#"><i class="fab fa-youtube" style="margin-right: 6px;"></i></a>
+        <a class="link-dark text-light" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
+        <a class="link-dark text-light" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
+        <a class="link-dark text-light" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
+        {{-- <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-sign-in-alt" style="margin-left: 12px;"></i></a>
 
-        <a type="button" class="link-dark rb-blue-tx" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
+        <a type="button" class="link-dark rb-blue-tx" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a> --}}
       </div>
     </div>
 

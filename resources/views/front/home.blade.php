@@ -2,7 +2,7 @@
 
 @section('child')
 
-    <div class="bg-white d-flex align-items-center" style="height: 33rem;">
+    <div class="d-flex align-items-center" style="height: 100vh; background-color: #F9F6EE;">
         @include('front.partials.banner')
     </div>
     
@@ -24,7 +24,7 @@
       @include('front.partials.about')
     </div> --}}
 
-    <div class="bg-white">
+    <div style="background-color: #F9F6EE;">
     <div class="container">
       @include('front.partials.slick')
     </div>

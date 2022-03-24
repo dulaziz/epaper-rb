@@ -1,6 +1,7 @@
 @extends('layouts.frontLayout.main')
 
 @section('child')
+<div style="background-color: #F9F6EE;">
 <div class="py-5 container">
     <div class="carousel-text mb-3">
         <h1>Daftar Paket Berlangganan</h1>
@@ -12,7 +13,7 @@
             @include('front.partials.cardPrice')
         </div>
         <div class="col-sm-4">
-            <div class="card mb-3" >
+            <div class="card mb-3 shadow" >
                 <img src="img/ds-.png" class="pt-3 mx-auto d-block" alt="..." style="width: 300px">
                 <div class="card-body">
                 <h5 class="card-title">Paket 3 Bulan</h5>
@@ -34,13 +35,13 @@
                 </ul>
                 <div class="card-body">
                     <div class="d-grid">
-                        <button class="btn btn-sm btn-success" type="button">Pilih Paket</button>
+                        <button class="btn btn-sm btn-dark" type="button">Pilih Paket</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="card mb-3">
+            <div class="card mb-3 shadow">
                 <img src="img/ds-.png" class="pt-3 mx-auto d-block" alt="..." style="width: 300px">
                 <div class="card-body">
                 <h5 class="card-title">Paket 6 Bulan</h5>
@@ -62,13 +63,13 @@
                 </ul>
                 <div class="card-body">
                     <div class="d-grid">
-                        <button class="btn btn-sm btn-success" type="button">Pilih Paket</button>
+                        <button class="btn btn-sm btn-dark" type="button">Pilih Paket</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="card mb-3">
+            <div class="card mb-3 shadow">
                 <img src="img/ds-.png" class="pt-3 mx-auto d-block" alt="..." style="width: 300px">
                 <div class="card-body">
                 <h5 class="card-title">Paket 12 Bulan</h5>
@@ -90,13 +91,13 @@
                 </ul>
                 <div class="card-body">
                     <div class="d-grid">
-                        <button class="btn btn-sm btn-success" type="button">Pilih Paket</button>
+                        <button class="btn btn-sm btn-dark" type="button">Pilih Paket</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="card mb-3">
+            <div class="card mb-3 shadow">
                 <img src="img/ds-.png" class="pt-3 mx-auto d-block" alt="..." style="width: 300px">
                 <div class="card-body">
                 <h5 class="card-title">Paket Karyawan</h5>
@@ -118,13 +119,13 @@
                 </ul>
                 <div class="card-body">
                     <div class="d-grid">
-                        <button class="btn btn-sm btn-success" type="button">Pilih Paket</button>
+                        <button class="btn btn-sm btn-dark" type="button">Pilih Paket</button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="col-sm-4">
-            <div class="card mb-3">
+            <div class="card mb-3 shadow">
                 <img src="img/ds-.png" class="pt-3 mx-auto d-block" alt="..." style="width: 300px">
                 <div class="card-body">
                 <h5 class="card-title">Paket Langganan Cetak</h5>
@@ -146,11 +147,12 @@
                 </ul>
                 <div class="card-body">
                     <div class="d-grid">
-                        <button class="btn btn-sm btn-success" type="button">Pilih Paket</button>
+                        <button class="btn btn-sm btn-dark" type="button">Pilih Paket</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 @endsection

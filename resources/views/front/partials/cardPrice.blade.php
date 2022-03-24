@@ -1,4 +1,4 @@
-<div class="card mb-3">
+<div class="card mb-3 shadow">
     <img src="img/ds-.png" class="pt-3 mx-auto d-block" alt="..." style="width: 300px">
     <div class="card-body">
     <h5 class="card-title">Satuan (Card Partials)</h5>
@@ -20,7 +20,7 @@
     </ul>
     <div class="card-body">
         <div class="d-grid">
-            <button class="btn btn-sm btn-success" type="button">Pilih Paket</button>
+            <button class="btn btn-sm btn-dark" type="button">Pilih Paket</button>
         </div>
     </div>
 </div>

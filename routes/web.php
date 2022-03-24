@@ -28,7 +28,7 @@ Route::get('/epaper', function () {
 
 Route::get('/langganan', function () {
     return view('front/langganan', [
-        "title" => "langganan"
+        "title" => "Langganan"
     ]);
 });
 
@@ -38,7 +38,20 @@ Route::get('/login', function () {
     ]);
 });
 
+Route::get('/daftar', function () {
+    return view('front/daftarAkun', [
+        "title" => "Daftar"
+    ]);
+});
+
+
 // Admin
+Route::get('admin/login', function () {
+    return view('admin/login', [
+        "title" => "Login"
+    ]);
+});
+
 Route::get('/admin', function () {
     return view('admin/index', [
         "title" => "Dashboard"
