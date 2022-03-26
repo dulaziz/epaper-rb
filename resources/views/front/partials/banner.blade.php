@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <img src="img/cover_epaper.png" alt="" class="float-end img-fluid">
+            <img src="img/Illus Bahan.png" alt="" class="float-end img-fluid">
         </div>
     </div>
 </div>

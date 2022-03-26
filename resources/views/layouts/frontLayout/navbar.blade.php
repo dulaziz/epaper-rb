@@ -7,7 +7,7 @@
 </div> --}}
 
 {{-- Navbar --}}
-<nav class="navbar navbar-expand-lg justify-content-between py-1 navbar-dark shadow-sm sticky-top " style="background-color: #00548F;">
+<nav class="navbar navbar-expand-lg py-1 navbar-dark shadow-sm sticky-top " style="background-color: #00548F;">
   <div class="container"> 
 
     {{-- Logo --}}
@@ -28,7 +28,7 @@
     </button>
     {{-- Menu --}}
     <div class="collapse navbar-collapse" id="toggleMobileMenu">
-      <ul class="navbar-nav text-center fw-bold ms-auto d-flex align-items-center">
+      <ul class="navbar-nav text-center fw-bold ms-auto">
         <li class="nav-item">
           <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
         </li>

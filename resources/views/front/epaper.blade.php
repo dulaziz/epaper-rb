@@ -2,7 +2,7 @@
 
 @section('child')
 
-<div style="background-color: #F9F6EE;">
+<div style="background-color: #E9F1FD;">
 <div class="py-5 container">
     <div class="carousel-text mb-3">
         <h1>ePaper bulan ini</h1>

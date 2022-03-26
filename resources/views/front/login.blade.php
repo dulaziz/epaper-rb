@@ -1,7 +1,7 @@
 @extends('layouts.frontLayout.main')
 
 @section('child')
-<div style="background-color: #F9F6EE;">
+<div style="background-color: #E9F1FD;">
 <div class="container py-5 d-flex justify-content-center">
     <div class="col-md-6">
         

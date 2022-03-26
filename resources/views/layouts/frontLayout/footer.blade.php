@@ -7,9 +7,7 @@
         <div class="col-md-12 col-lg-6 col-xl-6 mx-auto mt-3">
           <img src="img/RB white.png" alt="logo radar bogor" class="mb-2" style="width: 250px">
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco.</p>
+          <p>Graha Pena Bogor <br> Jl KHR Abdullah Bin Nuh Jl. Ring Road Taman Yasmin No.30, RT.05/RW.04, Cibadak, Kec. Bogor Barat, Kota Bogor, Jawa Barat 16113.</p>
         </div>
 
         <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3">
@@ -47,7 +45,7 @@
         </div>
         <hr>
         <div class="row align-items-center">
-            <p class="mb-0">Copyright &copy All rights reserved by:
+            <p class="mb-0">2022 Copyright &copy All rights reserved by:
               <a href="#" style="text-decoration: none;">
                 <strong class="text-light">Radar Bogor</strong>
               </a>
