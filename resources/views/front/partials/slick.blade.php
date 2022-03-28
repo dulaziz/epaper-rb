@@ -21,7 +21,7 @@
 
 <div class="py-5">
     <div class="mb-4">
-    <h3 class="fw-bold rb-blue-tx">Epaper Bulan Ini</h3>
+    <h2 class="rb-blue-tx">Epaper Bulan Ini</h2>
         <p class="text-secondary">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua.

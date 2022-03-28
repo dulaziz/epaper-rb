@@ -1,6 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\epaperController;
+use App\Http\Controllers\homeController;
+use App\Http\Controllers\langgananController;
+use App\Http\Controllers\loginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,33 +18,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 // User Front
-Route::get('/', function () {
-    return view('front/home', [
-        "title" => "Home"
-    ]);
-});
+Route::get('/', [homeController::class, 'index']);
 
-Route::get('/epaper', function () {
-    return view('front/epaper', [
-        "title" => "Epaper"
-    ]);
-});
+Route::get('/epaper', [epaperController::class, 'index']);
 
-Route::get('/langganan', function () {
-    return view('front/langganan', [
-        "title" => "Langganan"
-    ]);
-});
+Route::get('/langganan', [langgananController::class, 'index']);
 
-Route::get('/login', function () {
-    return view('front/login', [
-        "title" => "Login"
-    ]);
-});
+Route::get('/login', [loginController::class, 'index']);
 
-Route::get('/daftar', function () {
-    return view('front/daftarAkun', [
-        "title" => "Daftar"
+Route::get('/register', function () {
+    return view('front/register', [
+        "title" => "Register"
     ]);
 });
 

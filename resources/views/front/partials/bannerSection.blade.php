@@ -13,21 +13,21 @@
                     <div class="carousel-item active">
                         <div class="carousel-text">
                             <h1 class="rb-blue-tx fw-bold">Selamat Datang</h1>
-                            <h3 class="text-secondary">Harian Pagi Radar Bogor Digital</h3>
+                            <h4 class="text-secondary">Harian Pagi Radar Bogor Digital</h4>
                             <p class="mt-4 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-text text-secondary">
                             <h1 class="rb-blue-tx fw-bold">Produk Kami</h1>
-                            <h3 class="text-secondary">Media Digital & Media Cetak </h3>
+                            <h4 class="text-secondary">Media Digital & Media Cetak </h4>
                             <p class="mt-4 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus, molestias consectetur minima id saepe voluptatum iure mollitia adipisci quam magni fuga facere, nihil rem alias quidem a! Repellat, quibusdam.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="carousel-text text-secondary">
                             <h1 class="rb-blue-tx fw-bold">Daftar Segera</h1>
-                            <h3 class="text-secondary">Paket Member Menarik</h3>
+                            <h4 class="text-secondary">Paket Member Menarik</h4>
                             <p class="mt-4 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam accusamus, molestias consectetur minima id saepe voluptatum iure mollitia adipisci quam magni fuga facere, nihil rem alias quidem a! Repellat, quibusdam.</p>
                         </div>
                     </div>
