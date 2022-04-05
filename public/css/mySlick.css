@@ -1,15 +1,23 @@
-.mySlick{
-    height: 46rem;
+/* .mySlick{
+    height: 28rem;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
 }
 
 @media (max-width: 1025px){
     .mySlick{
-        height: 36rem;
+        height: 23rem;
+    }
+    }
+@media (max-width: 769px){
+    .mySlick{
+        height: 18rem;
     }
     }
 @media (max-width: 427px){
     .mySlick{
-        height: 35rem;
+        height: 15rem;
     }
     }
 @media (max-width: 377px){
@@ -21,4 +29,4 @@
 .mySlick{
     height: 45rem;
 }
-}
+} */

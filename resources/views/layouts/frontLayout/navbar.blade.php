@@ -7,11 +7,11 @@
 </div> --}}
 
 {{-- Navbar --}}
-<nav class="navbar navbar-expand-lg py-1 navbar-dark shadow-sm sticky-top " style="background-color: #00548F;">
+<nav class="navbar navbar-expand-lg py-1 navbar-light sticky-top border-bottom bg-light">
   <div class="container"> 
 
     {{-- Logo --}}
-    <a class="navbar-brand navlogo" href="/"><img src="img/RB white.png" alt="logo radar bogor"></a>
+    <a class="navbar-brand navlogo" href="/"><img src="img/RB Nav.png" alt="logo radar bogor"></a>
     
     {{-- Burger Menu --}}
     <button 
@@ -45,13 +45,13 @@
 
       {{-- Soccial Icon --}}
       <div class="text-center ms-3 py-1">
-        <a class="link-dark text-light" href="#"><i class="fab fa-youtube" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-light" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-light" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-light" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
-        {{-- <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-sign-in-alt" style="margin-left: 12px;"></i></a>
+        <a class="link-dark text-secondary" href="#"><i class="fab fa-youtube" style="margin-right: 6px;"></i></a>
+        <a class="link-dark text-secondary" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
+        <a class="link-dark text-secondary" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
+        <a class="link-dark text-secondary" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
+        <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-sign-in-alt" style="margin-left: 12px;"></i></a>
 
-        <a type="button" class="link-dark rb-blue-tx" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a> --}}
+        <a type="button" class="link-dark rb-blue-tx" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
       </div>
     </div>
 
@@ -63,26 +63,26 @@
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="loginModalLabel">Login Member</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
+      <div class="modal-body py-5 px-4">
+        <div class="d-flex flex-row justify-content-between mb-5">
+          <h6 id="loginModalLabel">Form</h6>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+        <h2 class="fw-bold rb-blue-tx mb-3">Login Member</h2>
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <label for="exampleInputEmail1" class="form-label">Username/Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
           </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-success">Login</button>
+          <a href="#"><button class="btn btn-dark">Login</button></a>
+          <a href="/register"><button class="btn btn-secondary">Register</button></a>
+          <p class="card-text mt-4 text-secondary" style="transform: rotate(0);">
+            Silahkan melakukan <a href="/register" class="text-primary stretched-link">pendaftaran akun</a> jika belum terdaftar sebagai penguna.
+        </p>
         </form>
       </div>
     </div>

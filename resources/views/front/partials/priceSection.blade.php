@@ -1,9 +1,9 @@
 <div class="py-5">
-    <div class="row d-flex align-items-center">
-    <div class="col-md-5">
+    <div class="row d-flex align-items-center flex-column-reverse flex-md-row">
+    <div class="col-lg-6">
         <img src="img/MockEpaper.png" alt="" class="float-end img-fluid">
     </div>
-    <div class="col-md-7">
+    <div class="col-lg-6">
         <h2 class="rb-blue-tx">Daftar Paket</h2>
         <p class="text-secondary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam optio voluptatum veritatis dignissimos nisi, maiores debitis porro quis quas? Fugit minima aspernatur natus sit veritatis! Provident dignissimos reiciendis quia aliquid.</p>
         <div class="row g-3">
@@ -43,6 +43,9 @@
                 </div>
             </div>
             </div>
+            <a href="/langganan" class="text-decoration-none">
+                <p class="text-secondary fw-bold">Paket selengkapnya<i class="fas fa-arrow-right ms-2 fs-6"></i></p>
+            </a> 
         </div>
           
         {{-- <h1>Highlight</h1>

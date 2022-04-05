@@ -32,6 +32,12 @@ Route::get('/register', function () {
     ]);
 });
 
+Route::get('/flip', function () {
+    return view('front/flip', [
+        "title" => "Flip"
+    ]);
+});
+
 
 // Admin
 Route::get('admin/login', function () {
