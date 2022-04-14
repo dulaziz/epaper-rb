@@ -28,31 +28,29 @@
     </button>
     {{-- Menu --}}
     <div class="collapse navbar-collapse" id="toggleMobileMenu">
-      <ul class="navbar-nav text-center fw-bold ms-auto">
+      <ul class="navbar-nav text-center fw-bold ms-auto d-flex align-items-center">
         <li class="nav-item">
           <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {{ ($title === "Epaper") ? 'active' : '' }}" href="/epaper">Epaper</a>
         </li>
-        <li class="nav-item">
+        {{-- <li class="nav-item">
           <a class="nav-link {{ ($title === "Langganan") ? 'active' : '' }}" href="/langganan">Berlangganan</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {{ ($title === "Login") ? 'active' : '' }}" href="/login">Login</a>
-        </li>
+        </li> --}}
       </ul>
-
+        <button type="button" class="btn btn-outline-secondary btn-sm ms-5" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-user"></i> Nama Member</button>
+        {{-- <a class="nav-link {{ ($title === "Login") ? 'active' : '' }}" href="/login">Login</a> --}}
+            
       {{-- Soccial Icon --}}
-      <div class="text-center ms-3 py-1">
+      {{-- <div class="text-center ms-3 py-1">
         <a class="link-dark text-secondary" href="#"><i class="fab fa-youtube" style="margin-right: 6px;"></i></a>
         <a class="link-dark text-secondary" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
         <a class="link-dark text-secondary" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
         <a class="link-dark text-secondary" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
-        <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-sign-in-alt" style="margin-left: 12px;"></i></a>
-
-        <a type="button" class="link-dark rb-blue-tx" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
-      </div>
+        
+        <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
+      </div> --}}
     </div>
 
   </div>

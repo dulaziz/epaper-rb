@@ -14,7 +14,6 @@
         @include('front.partials.cardEpaper')
         @include('front.partials.cardEpaper')
         @include('front.partials.cardEpaper')
-        @include('front.partials.cardEpaper')
 
         @include('front.partials.pagination')
     </div> 

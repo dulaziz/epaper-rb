@@ -7,6 +7,12 @@
   /* color: #E9F1FD; */
   /* color: #F9F6EE; */
 }
+.y-tx{
+  color: #FFB84D;
+  /* color: #E9F1FD; */
+  /* color: #E9F1FD; */
+  /* color: #F9F6EE; */
+}
 
 /* Card Style */
 .myCard{
@@ -112,4 +118,60 @@
 .flipped .front,
 .flipped .back{
   transform: rotateY(-180deg);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #FFB84D;
+}
+.nav-link {
+  color: #00548F;
+  font-weight: 500;
+}
+
+.cardPrice{
+  /* border: 1px solid #B8BFC9; */
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.ribbon{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  overflow: hidden;
+}
+.ribbon::before,
+.ribbon::after{
+  position: absolute;
+  content: "";
+  display: block;
+  border: 5px solid #FFB84D;
+  border-top-color: transparent;
+  border-left-color: transparent;
+}
+ .ribbon::before{
+  top: 0px;
+  right: 25px;
+}
+
+ .ribbon::after{
+  bottom: 25px;
+  left: 0px;
+}
+
+ .ribbon span{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  transform: rotate(-45deg);
+  width: 200px;
+  background: #FFB84D;
+  padding: 10px 0;
+  color: #00548F;
+  text-align: center;
+  font-size: 17px;
+  box-shadow: 0px 1px 3px 0px rgb(0 0 0 / 21%);
 }

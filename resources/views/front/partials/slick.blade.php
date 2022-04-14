@@ -18,7 +18,7 @@
 </head>
 <body>
 
-<div class="p-3 px-md-4 px-lg-5 bg-white rounded shadow ">
+<div class="p-3 px-md-4 px-lg-5 bg-light slickBox ">
     {{-- <div class="text-center">
     <h2 class="rb-blue-tx">Harian Pagi Radar Bogor</h2>
     <p class="text-secondary">
