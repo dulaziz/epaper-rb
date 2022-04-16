@@ -39,7 +39,7 @@
           <a class="nav-link {{ ($title === "Langganan") ? 'active' : '' }}" href="/langganan">Berlangganan</a>
         </li> --}}
       </ul>
-        <button type="button" class="btn btn-outline-secondary btn-sm ms-5" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-user"></i> Nama Member</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm ms-2" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-user"></i> Nama Member</button>
         {{-- <a class="nav-link {{ ($title === "Login") ? 'active' : '' }}" href="/login">Login</a> --}}
             
       {{-- Soccial Icon --}}

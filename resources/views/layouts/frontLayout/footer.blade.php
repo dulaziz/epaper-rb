@@ -14,16 +14,29 @@
           <h5 class="text-uppercase mb-4 fw-bold">Soccial</h5>
           <hr>
           <p>
-            <i class="fab fa-facebook" style="margin-right: 6px;"></i>Facebook
+            <a class="text-decoration-none text-light" href="https://www.youtube.com/channel/UCZ0d_a44D-aORvJze6V-0Kg" target="_blank">
+              <i class="fab fa-youtube me-3"></i>Youtube
+            </a>
           </p>
           <p>
-            <i class="fab fa-instagram" style="margin-right: 6px;"></i>Instagram
+            <a class="text-decoration-none text-light" href="https://www.tiktok.com/@radarbogor" target="_blank">
+              <i class="fab fa-tiktok me-3"></i>Tiktok
+            </a>
           </p>
           <p>
-            <i class="fab fa-twitter" style="margin-right: 6px;"></i>Twitter
+            <a class="text-decoration-none text-light" href="https://www.instagram.com/radar_bogor" target="_blank">
+              <i class="fab fa-instagram me-3"></i>Instagram
+            </a>
           </p>
           <p>
-            <i class="fab fa-youtube" style="margin-right: 6px;"></i>Youtube
+            <a class="text-decoration-none text-light" href="https://www.facebook.com/radar.bogor" target="_blank">
+              <i class="fab fa-facebook me-3"></i>Facebook
+            </a>
+          </p>
+          <p>
+            <a class="text-decoration-none text-light" href="https://twitter.com/radarbogorID" target="_blank">
+              <i class="fab fa-twitter me-3"></i>Twitter
+            </a>
           </p>
         </div>
 
@@ -31,16 +44,13 @@
           <h5 class="text-uppercase mb-4 fw-bold">Contact</h5>
           <hr>
           <p>
-            <i class="fas fa-envelope" style="margin-right: 6px;"></i>Email
+            <i class="fas fa-envelope me-3"></i>redaksi@radar-bogor.com
           </p>
           <p>
-            <i class="fas fa-phone" style="margin-right: 6px;"></i>Phone
+            <i class="fas fa-phone me-3"></i>0251 754 4001
           </p>
           <p>
-            <i class="fab fa-whatsapp" style="margin-right: 6px;"></i>Whatsapp
-          </p>
-          <p>
-            <i class="fas fa-home" style="margin-right: 6px;"></i>Kota Bogor
+            <i class="fab fa-whatsapp me-3"></i>0815 8302 200
           </p>
         </div>
         <hr>

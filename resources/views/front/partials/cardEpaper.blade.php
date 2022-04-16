@@ -3,9 +3,9 @@
         <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
         <div class="card-body text-secondary">
             <h5 class="card-title">Edisi 1 Januari 2020</h5>
-            <div class="d-grid gap-2">
-            <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Download ePaper</button>
-            <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#daftarModal">Order Newspaper</button>
+            <div class="d-flex flex-row">
+            <a type="button" class="btn btn-dark btn-sm text-light me-2" data-bs-toggle="modal" data-bs-target="#daftarModal"><i class="fas fa-download"></i></a>
+            <a class="btn btn-dark btn-sm text-light" data-bs-toggle="tooltip" title="Baca Epaper" href="/viewEpaper"><i class="fas fa-book-open"></i></a>
             </div>
         </div>
     </div>

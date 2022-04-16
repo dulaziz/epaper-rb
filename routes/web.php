@@ -32,6 +32,18 @@ Route::get('/register', function () {
     ]);
 });
 
+Route::get('/viewEpaper', function () {
+    return view('front/viewEpaper', [
+        "title" => "View Epaper"
+    ]);
+});
+
+Route::get('/registerCetak', function () {
+    return view('front/registerCetak', [
+        "title" => "Register Cetak"
+    ]);
+});
+
 Route::get('/flip', function () {
     return view('front/flip', [
         "title" => "Flip"
