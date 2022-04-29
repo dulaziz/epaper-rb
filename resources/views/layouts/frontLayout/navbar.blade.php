@@ -1,13 +1,8 @@
 
 <link rel="stylesheet" href="css/navStyle.css">
 
-{{-- Nav Header logo--}}
-{{-- <div class="text-center bg-white">
-  <h1 class="goudy rb-blue-tx pt-2 pb-0 mb-0">RADAR BOGOR</h1>
-</div> --}}
-
 {{-- Navbar --}}
-<nav class="navbar navbar-expand-lg py-1 navbar-light sticky-top border-bottom bg-light">
+<nav id="navBar" class="navbar navbar-expand-lg py-2 navbar-light sticky-top bg-white">
   <div class="container"> 
 
     {{-- Logo --}}
@@ -30,27 +25,13 @@
     <div class="collapse navbar-collapse" id="toggleMobileMenu">
       <ul class="navbar-nav text-center fw-bold ms-auto d-flex align-items-center">
         <li class="nav-item">
-          <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Home</a>
+          <a class="nav-link {{ ($title === "Home") ? 'active' : '' }}" href="/">Beranda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {{ ($title === "Epaper") ? 'active' : '' }}" href="/epaper">Epaper</a>
         </li>
-        {{-- <li class="nav-item">
-          <a class="nav-link {{ ($title === "Langganan") ? 'active' : '' }}" href="/langganan">Berlangganan</a>
-        </li> --}}
       </ul>
-        <button type="button" class="btn btn-outline-secondary btn-sm ms-2" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-user"></i> Nama Member</button>
-        {{-- <a class="nav-link {{ ($title === "Login") ? 'active' : '' }}" href="/login">Login</a> --}}
-            
-      {{-- Soccial Icon --}}
-      {{-- <div class="text-center ms-3 py-1">
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-youtube" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-facebook" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-instagram" style="margin-right: 6px;"></i></a>
-        <a class="link-dark text-secondary" href="#"><i class="fab fa-twitter" style="margin-right: 6px;"></i></a>
-        
-        <a type="button" class="link-dark rb-blue-tx border-start" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="margin-left: 12px;"></i></a>
-      </div> --}}
+        <button type="button" class="btn btn-outline-secondary btn-sm ms-2" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-user"></i> Nama Member</button>        
     </div>
 
   </div>
@@ -143,3 +124,5 @@
     </div>
   </div>
 </div>
+
+<script src="js/script.js"></script>

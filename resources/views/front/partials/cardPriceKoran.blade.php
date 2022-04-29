@@ -1,12 +1,12 @@
 <div class="card mb-5 cardPrice border-0 bg-white">
-    <div class="card-body py-5 px-4 text-center">
+    <div class="card-body pt-5 pb-1 px-3 text-center">
         {{-- <div class="mb-3 mx-auto d-block">
             <i class="fas fa-baby" style="font-size: 100px;"></i>
         </div> --}}
         <div class="ribbon fw-bold"><span>Koran Cetak</span></div>
-        <h4 class="text-secondary fs-6 mb-4">Paket 4 Bulan</h4>
-        <h3 class="rb-blue-tx fw-bold fs-1">IDR 600 k</h3>
-        <ul class="list-group list-group-flush d-grid gap-3 my-5 text-start">
+        <h4 class="text-secondary fs-6 text-center">Paket 3 Bulan</h4>
+        <h3 class="rb-blue-tx fw-bold fs-1 text-center my-4">IDR 500 k</h3>
+        {{-- <ul class="list-group list-group-flush d-grid gap-3 my-5 text-start">
             <li class="d-flex flex-row align-items-center ">
                 <i class="fa fa-times me-3" style="color: red;"></i>
                 <p class="mb-0">Download ePaper sepuasnya selama masa aktif paket</p>
@@ -19,10 +19,11 @@
                 <i class="fa fa-times me-3" style="color: red;"></i>
                 <p class="mb-0">Akses tanpa batas ke seluruh konten</p>
             </li>
-        </ul>
-        <div class="d-grid">
-            <button type="button" class="btn btn-dark btn-sm" data-bs-toggle="modal" data-bs-target="#daftarKoranModal">Pilih Paket</button>
+        </ul> --}}
+        <div class="d-grid col-7 mx-auto my-4">
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#daftarModal"><i class="fas fa-shopping-cart"></i> Pilih Paket</button>
         </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati animi atque iure.</p>
     </div>
 </div>
 
