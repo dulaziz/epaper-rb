@@ -21,7 +21,7 @@
             </li>
         </ul> --}}
         <div class="d-grid col-7 mx-auto my-4">
-            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#daftarModal"><i class="fas fa-shopping-cart"></i> Pilih Paket</button>
+            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#daftarKoranModal"><i class="fas fa-shopping-cart"></i> Pilih Paket</button>
         </div>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati animi atque iure.</p>
     </div>
@@ -47,9 +47,9 @@
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <a href="#"><button class="btn btn-dark">Login</button></a>
-            <a href="/register"><button class="btn btn-secondary">Register</button></a>
+            {{-- <a href="/registerCetak"><button class="btn btn-secondary">Register</button></a> --}}
             <p class="card-text mt-4 text-secondary" style="transform: rotate(0);">
-              Silahkan melakukan <a href="/register" class="text-primary stretched-link">pendaftaran akun</a> jika belum terdaftar sebagai penguna.
+              Silahkan melakukan <a href="/registerCetak" class="text-primary stretched-link">pendaftaran akun</a> jika belum terdaftar sebagai penguna.
           </p>
           </form>
         </div>

@@ -47,7 +47,7 @@
               <input type="password" class="form-control" id="exampleInputPassword1">
             </div>
             <a href="#"><button class="btn btn-dark">Login</button></a>
-            <a href="/register"><button class="btn btn-secondary">Register</button></a>
+            {{-- <a href="/register"><button class="btn btn-secondary">Register</button></a> --}}
             <p class="card-text mt-4 text-secondary" style="transform: rotate(0);">
               Silahkan melakukan <a href="/register" class="text-primary stretched-link">pendaftaran akun</a> jika belum terdaftar sebagai penguna.
           </p>

@@ -29,6 +29,8 @@
               <p>Dashboard</p>
             </a>
           </li>
+
+          <li class="nav-header">PESANAN</li>
           <li class="nav-item">
             <a href="/admin/pesanan" class="nav-link {{ ($title === "Pesanan") ? 'active' : '' }}">
               <i class="nav-icon fa-solid fa-cart-arrow-down"></i>
@@ -38,6 +40,17 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="/admin/pesananKoran" class="nav-link {{ ($title === "Pesanan koran") ? 'active' : '' }}">
+              <i class="nav-icon fas fa-shopping-basket"></i>
+              <p>
+                Pesanan koran
+                <span class="badge badge-info right">2</span>
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-header">PRODUK</li>
           <li class="nav-item">
             <a href="/admin/produk" class="nav-link {{ ($title === "Produk") ? 'active' : '' }}">
               <i class="nav-icon fa-solid fa-newspaper"></i>
@@ -54,6 +67,8 @@
               </p>
             </a>
           </li>
+
+          <li class="nav-header">PAKET</li>
           <li class="nav-item">
             <a href="/admin/paket" class="nav-link {{ ($title === "Paket") ? 'active' : '' }}">
               <i class="nav-icon fa-solid fa-hand-holding-dollar"></i>
@@ -63,6 +78,14 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="/admin/tambahPaket" class="nav-link {{ ($title === "Tambah Paket") ? 'active' : '' }}">
+              <i class="nav-icon fas fa-tags"></i>
+              <p>
+                Tambah Paket
+              </p>
+            </a>
+          </li>
+          {{-- <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-envelope"></i>
               <p>
@@ -313,7 +336,7 @@
                 </a>
               </li>
             </ul>
-          </li>
+          </li> --}}
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

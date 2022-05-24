@@ -2,11 +2,9 @@
     <div class="card border-light shadow">
         <img src="img/2022012801_halanmanutama.jpg" alt="" class="card-img-top">
         <div class="card-body text-secondary">
-            <h5 class="card-title">Edisi 1 Januari 2020</h5>
-            <div class="d-flex flex-row">
-            <a type="button" class="btn btn-dark btn-sm text-light me-2" data-bs-toggle="modal" data-bs-target="#daftarModal"><i class="fas fa-download"></i></a>
-            <a class="btn btn-dark btn-sm text-light" data-bs-toggle="tooltip" title="Baca Epaper" href="/viewEpaper"><i class="fas fa-book-open"></i></a>
-            </div>
+            <h5 class="card-title"><i class="fas fa-newspaper text-secondary me-3"></i>Edisi 1 Januari 2020</h5>
+            <a href="/viewEpaper"><h5 class="card-title"><i class="fas fa-book-open text-secondary me-3"></i>Baca epaper</h5></a>
+            
         </div>
     </div>
 </div>

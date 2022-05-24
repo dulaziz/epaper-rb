@@ -70,6 +70,12 @@ Route::get('admin/pesanan', function () {
     ]);
 });
 
+Route::get('admin/pesananKoran', function () {
+    return view('admin/pesananKoran', [
+        "title" => "Pesanan koran"
+    ]);
+});
+
 Route::get('admin/produk', function () {
     return view('admin/produk', [
         "title" => "Produk"
@@ -85,5 +91,11 @@ Route::get('admin/tambahProduk', function () {
 Route::get('admin/paket', function () {
     return view('admin/paket', [
         "title" => "Paket"
+    ]);
+});
+
+Route::get('admin/tambahPaket', function () {
+    return view('admin/tambahPaket', [
+        "title" => "Tambah Paket"
     ]);
 });
