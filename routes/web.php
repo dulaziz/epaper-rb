@@ -64,9 +64,27 @@ Route::get('/admin', function () {
     ]);
 });
 
-Route::get('admin/pesanan', function () {
-    return view('admin/pesanan', [
-        "title" => "Pesanan"
+Route::get('admin/pelangganDigital', function () {
+    return view('admin/pelangganDigital', [
+        "title" => "Pelanggan digital"
+    ]);
+});
+
+Route::get('admin/pelangganKoran', function () {
+    return view('admin/pelangganKoran', [
+        "title" => "Pelanggan koran"
+    ]);
+});
+
+Route::get('admin/detailPelangganDigital', function () {
+    return view('admin/detailPelangganDigital', [
+        "title" => "Detail Pelanggan digital"
+    ]);
+});
+
+Route::get('admin/detailPelangganKoran', function () {
+    return view('admin/detailPelangganKoran', [
+        "title" => "Detail Pelanggan koran"
     ]);
 });
 

@@ -43,7 +43,7 @@
 
       <li class="nav-item">
         <a class="nav-link" href="#" role="button">
-          <i class="fa-solid fa-right-from-bracket"></i>
+          <i class="fa-solid fa-solid fa-power-off"></i>
         </a>
       </li>
 

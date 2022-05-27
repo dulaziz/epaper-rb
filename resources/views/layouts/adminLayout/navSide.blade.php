@@ -32,19 +32,28 @@
 
           <li class="nav-header">PESANAN</li>
           <li class="nav-item">
-            <a href="/admin/pesanan" class="nav-link {{ ($title === "Pesanan") ? 'active' : '' }}">
-              <i class="nav-icon fa-solid fa-cart-arrow-down"></i>
+            <a href="/admin/pesananKoran" class="nav-link {{ ($title === "Pesanan koran") ? 'active' : '' }}">
+              <i class="nav-icon fas fa-shopping-basket"></i>
               <p>
-                Pesanan
+                Pesanan koran
                 <span class="badge badge-info right">2</span>
               </p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/pesananKoran" class="nav-link {{ ($title === "Pesanan koran") ? 'active' : '' }}">
-              <i class="nav-icon fas fa-shopping-basket"></i>
+            <a href="/admin/pelangganKoran" class="nav-link {{ ($title === "Pelanggan koran") ? 'active' : '' }}">
+              <i class="nav-icon fa-solid fa-book-open-reader"></i>
               <p>
-                Pesanan koran
+                Pelanggan Koran
+                <span class="badge badge-info right">2</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/admin/pelangganDigital" class="nav-link {{ ($title === "Pelanggan digital") ? 'active' : '' }}">
+              <i class="nav-icon fa-solid fa-users"></i>
+              <p>
+                Pelanggan digital
                 <span class="badge badge-info right">2</span>
               </p>
             </a>
@@ -82,6 +91,24 @@
               <i class="nav-icon fas fa-tags"></i>
               <p>
                 Tambah Paket
+              </p>
+            </a>
+          </li>
+
+          <li class="nav-header">GENERAL</li>
+          <li class="nav-item">
+            <a href="#" class="nav-link {{ ($title === "#") ? 'active' : '' }}">
+              <i class="nav-icon fa-solid fa-user-gear"></i>
+              <p>
+                Profile
+              </p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link {{ ($title === "#") ? 'active' : '' }}">
+              <i class="nav-icon fa-solid fa-power-off"></i>
+              <p>
+                Keluar
               </p>
             </a>
           </li>

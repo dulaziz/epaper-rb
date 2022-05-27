@@ -30,8 +30,20 @@
                 <label class="form-check-label" for="inlineCheckbox2">Akses tanpa batas ke seluruh konten</label>
               </div> --}}
           </form>
-          <button type="submit" class="btn btn-warning text-light btn-sm mt-3">Edit Paket</button>
-        <button type="submit" class="btn btn-primary btn-sm mt-3">Simpan</button>
+          <div class="d-flex bd-highlight mb-3">
+            <div class="p-2 bd-highlight">
+              <button type="submit" class="btn btn-warning text-light btn-sm"><i class="fas fa-edit"></i> Edit Paket</button>
+            </div>
+            <div class="p-2 bd-highlight">
+              <button type="submit" class="btn btn-success text-light btn-sm"><i class="fas fa-save"></i> Simpan</button>
+            </div>
+            <div class="ml-auto p-2 bd-highlight">
+              <a href="/admin/paket" class="btn btn-primary btn-sm"><i class="fas fa-reply"></i> Kembali</a>
+            </div>
+          </div>
+          
+          
+          
     </div>
 </div>
 
