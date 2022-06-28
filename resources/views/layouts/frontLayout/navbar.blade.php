@@ -30,6 +30,9 @@
         <li class="nav-item">
           <a class="nav-link {{ ($title === "Epaper") ? 'active' : '' }}" href="/epaper">Epaper</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link {{ ($title === "Kerajang Epaper") ? 'active' : '' }}" href="/keranjangEpaper"><i class="fas fa-shopping-basket"></i></a>
+        </li>
       </ul>
         <button type="button" class="btn btn-outline-secondary btn-sm ms-2" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-placement="bottom" title="Login Member"><i class="fas fa-user"></i> Nama Member</button>        
     </div>

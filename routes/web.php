@@ -50,6 +50,18 @@ Route::get('/flip', function () {
     ]);
 });
 
+Route::get('/keranjangEpaper', function () {
+    return view('front/keranjangEpaper', [
+        "title" => "Keranjang Epaper"
+    ]);
+});
+
+Route::get('/keranjangKoran', function () {
+    return view('front/keranjangKoran', [
+        "title" => "Keranjang Koran"
+    ]);
+});
+
 
 // Admin
 Route::get('admin/login', function () {
